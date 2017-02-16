@@ -1,5 +1,10 @@
 ## discourse-formatting-toolbar
 
+**Forked**
+To change the underline button in striketrhough
+And automatically apply red color, when using the brush tool
+---
+
 Add text formatting options on your post
 
 <br>
