@@ -10,8 +10,8 @@ function priorToApi(container)
         toolbar.addButton({
           id: "souligner_ui_button",
           group: "fontStyles",
-          icon: "underline",
-          perform: e => e.applySurround('[u]', '[/u]', 'souligner_ui_default_text')
+          icon: "fa-strikethrough",
+          perform: e => e.applySurround('[s]', '[/s]', 'souligner_ui_default_text')
         });
       });
     
@@ -20,7 +20,7 @@ function priorToApi(container)
           id: "couleur_ui_button",
           group: "fontStyles",
           icon: "paint-brush",
-          perform: e => e.applySurround('[color=#]', '[/color]', 'couleur_ui_default_text')
+          perform: e => e.applySurround('[color=#ff0000]', '[/color]', 'couleur_ui_default_text')
         });
       });
     
@@ -80,8 +80,8 @@ function initializePlugin(api)
         toolbar.addButton({
           id: "souligner_ui_button",
           group: "fontStyles",
-          icon: "underline",
-          perform: e => e.applySurround('[u]', '[/u]', 'souligner_ui_default_text')
+          icon: "fa-strikethrough",
+          perform: e => e.applySurround('[s]', '[/s]', 'souligner_ui_default_text')
         });
       });
     
@@ -90,7 +90,7 @@ function initializePlugin(api)
           id: "couleur_ui_button",
           group: "fontStyles",
           icon: "paint-brush",
-          perform: e => e.applySurround('[color=#]', '[/color]', 'couleur_ui_default_text')
+          perform: e => e.applySurround('[color=#ff0000]', '[/color]', 'couleur_ui_default_text')
         });
       });
     
