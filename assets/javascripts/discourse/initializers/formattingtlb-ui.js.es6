@@ -10,7 +10,7 @@ function priorToApi(container)
         toolbar.addButton({
           id: "souligner_ui_button",
           group: "fontStyles",
-          icon: "fa-strikethrough",
+          icon: "strikethrough",
           perform: e => e.applySurround('[s]', '[/s]', 'souligner_ui_default_text')
         });
       });
@@ -80,7 +80,7 @@ function initializePlugin(api)
         toolbar.addButton({
           id: "souligner_ui_button",
           group: "fontStyles",
-          icon: "fa-strikethrough",
+          icon: "strikethrough",
           perform: e => e.applySurround('[s]', '[/s]', 'souligner_ui_default_text')
         });
       });
