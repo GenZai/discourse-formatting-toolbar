@@ -1,9 +1,9 @@
 fr:
   js:
     composer:
-      souligner_ui_button_title: "Souligner du texte"
+      souligner_ui_button_title: "Barrer du texte"
       souligner_ui_default_text: "Texte"
-      couleur_ui_button_title: "Colorer un texte"
+      couleur_ui_button_title: "Colorer le texte en rouge"
       couleur_ui_default_text: "Texte"
       addimg_ui_button_title: "Ajouter une image"
       addimg_ui_default_text: "http://"
