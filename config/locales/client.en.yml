@@ -1,9 +1,9 @@
 en:
   js:
     composer:
-      souligner_ui_button_title: "Underline text"
+      souligner_ui_button_title: "Striketrhough text"
       souligner_ui_default_text: "Text"
-      couleur_ui_button_title: "Color text"
+      couleur_ui_button_title: "Color text in red"
       couleur_ui_default_text: "Text"
       addimg_ui_button_title: "Add an image"
       addimg_ui_default_text: "http://"
